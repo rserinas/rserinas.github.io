@@ -11384,4 +11384,17 @@ textarea.form-control-lg {
 }
 
 
+@media (max-width: 768px) {
+	.section-1 .campaign-slogan p:nth-child(1) {
+		font-size: 50px;
+	}
+}
+
+
+@media (max-width: 1024px) {
+	.section-1 .campaign-slogan p:nth-child(1) {
+		margin-top: 0px;
+	}
+}
+
 
