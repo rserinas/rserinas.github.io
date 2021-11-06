@@ -11322,15 +11322,43 @@ textarea.form-control-lg {
 
 .section-2 {
 	padding: 20px 60px;
-	background-color: #ce3434;
+	background-color: #00285e;
 	color: #fff;
 	text-align: center;
 }
 
+.section-2 h2 {
+	position: relative;
+    top: 16px;
+}
+
+.section-2 .arrow-down {
+    width: 0px;
+    height: 0px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #00285e;
+	margin: 0 auto;
+	position: relative;
+    top: 40px;
+}
+
 .section-3 {
 	padding: 60px 60px;
-	background-color: #4064ac;
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-image: linear-gradient(to bottom, rgb(0 0 0 / 68%), rgb(0 0 0 / 94%)), url(../assets/54521733_2329144977364847_9103956406834298880_n.jpg);
 	color: #fff;
+}
+
+.section-3 .responsive div {
+	text-align: center;
+	font-size: 25px;
+}
+
+.section-3 .responsive {
+	margin-top: 30px;
 }
 
 .section-4 {
@@ -11344,9 +11372,12 @@ textarea.form-control-lg {
 	font-style: italic;
 }
 
-.section-4 p {	
+.section-4 p {
     padding: 25px 20px;
     border: 3px solid;
-    border-radius: 10px;
+	border-radius: 68px;
     font-size: 25px;
 }
+
+
+
