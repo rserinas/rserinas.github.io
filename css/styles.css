@@ -11291,27 +11291,27 @@ textarea.form-control-lg {
 
 .navbar .container img {
 	width: 13%;
-	margin-top: 51px;
 }
 
-.navbar {
-	background-color: #0070c0;
-	height: 40px;
+.navbar-nav li a {
+	color: #82a7da !important;
 }
 
 .section-1 {
 	background-image: url("../assets/54521733_2329144977364847_9103956406834298880_n.jpg");
 	padding: 0px 60px;
-	background-position: center center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-	background-image: linear-gradient(to bottom, rgb(0 0 0 / 28%), rgb(0 0 0 / 94%)), url(../assets/54521733_2329144977364847_9103956406834298880_n.jpg);
-	padding-top: 30px;
+    background-image: linear-gradient(to bottom, rgb(0 0 0 / 28%), rgb(255 255 255)), url(../assets/54521733_2329144977364847_9103956406834298880_n.jpg);
+    padding-top: 30px;
+	background-position: center bottom;
 }
 
 .section-1 img {
-	width: 100%;
-	height: 100%;
+	width: 60%;
+    margin: 0 auto;
+	margin-bottom: 0px !important;
 }
 
 .section-1 .campaign-slogan {
@@ -11319,22 +11319,86 @@ textarea.form-control-lg {
 	display: none;
 }
 
+
 .section-1 .campaign-slogan p:nth-child(1) {
-	color: #fff;
-	font-size: 55px;
-	text-transform: uppercase;
-    margin-top: 300px;
+	color: black;
+    font-size: 75px;
+    text-transform: uppercase;
+    margin-top: 80px;
 }
 
-.section-1 .campaign-slogan p:nth-child(2) {
+.section-1 .campaign-slogan .manggagawa {
+	color: #326fc4;
+	font-size: 63px;
+    margin-top: -30px;
+}
+
+.section-1 .campaign-slogan p:nth-child(3) {
+    color: black;
+    font-size: 65px;
+    text-transform: uppercase;
+    margin-top: -35px;
+}
+
+.section-kilalanin {
+	padding: 20px 60px;
+	background-color: #326fc4;
 	color: #fff;
-	font-size: 27px;
-    margin-top: -25px;
+	text-align: center;
+}
+
+.section-kilalanin h2 {
+	position: relative;
+    top: 16px;
+}
+
+.section-kilalanin .arrow-down {
+    width: 0px;
+    height: 0px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #326fc4;
+	margin: 0 auto;
+	position: relative;
+    top: 40px;
+}
+
+.sonny-info {
+	padding: 60px 60px;
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-image: linear-gradient(to bottom, rgb(0 0 0 / 68%), rgb(0 0 0 / 94%)), url(../assets/54521733_2329144977364847_9103956406834298880_n.jpg);
+	color: #fff;
+}
+
+.sonny-info p {
+	font-size: 25px;
+	margin-bottom: 0px;
+}
+
+.sonny-info .sonny-info-img-div {
+	text-align: center;
+}
+
+.sonny-info .sonny-info-img-div img {
+	width: 50% !important;
+	margin-bottom: 15px;
+}
+
+.sonny-info .more {
+	color: #e031ac;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.color-pink {
+	color: #e031ac;
 }
 
 .section-2 {
 	padding: 20px 60px;
-	background-color: #00285e;
+	background-color: #326fc4;
 	color: #fff;
 	text-align: center;
 }
@@ -11349,7 +11413,7 @@ textarea.form-control-lg {
     height: 0px;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-top: 20px solid #00285e;
+    border-top: 20px solid #326fc4;
 	margin: 0 auto;
 	position: relative;
     top: 40px;
@@ -11377,11 +11441,68 @@ textarea.form-control-lg {
 	width: 239px;
 }
 
-.section-4 {
-	padding: 60px 60px;
-	text-align: center;
-	background-color: #ce3434;
+.mga-balita-section {
+	padding: 20px 60px;
+	background-color: #326fc4;
 	color: #fff;
+	text-align: center;
+}
+
+.mga-balita-section .arrow-down {
+    width: 0px;
+    height: 0px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #326fc4;
+	margin: 0 auto;
+	position: relative;
+    top: 40px;
+}
+
+.mga-balita-section h2 {
+	position: relative;
+    top: 16px;
+}
+
+.mga-balita-videos {
+	padding: 60px 60px;
+}
+
+.mga-balita-videos iframe {
+	width: 100%;
+}
+
+.section-4 {
+	padding: 20px 60px;
+	background-color: #326fc4;
+	color: #fff;
+	text-align: center;
+}
+.social-media {
+	padding: 50px 50px;
+}
+.social-media ul {
+	text-align: center;
+}
+.social-media ul li {
+	display: inline;
+	margin-right: 50px;
+}
+
+.social-media ul li i {
+	font-size: 70px;
+}
+
+.social-media ul li a {
+	text-decoration: none;
+}
+
+.social-media ul li i.fa-facebook-square {
+	color: #3b5998;
+}
+
+.social-media ul li i.fa-youtube-play {
+	color: #ff0000;
 }
 
 .italize {
