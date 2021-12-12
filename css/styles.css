@@ -11289,17 +11289,29 @@ textarea.form-control-lg {
 
 /************************************* Custom CSS **********************************/
 
+.navbar .container img {
+	width: 13%;
+	margin-top: 51px;
+}
+
+.navbar {
+	background-color: #0070c0;
+	height: 40px;
+}
+
 .section-1 {
 	background-image: url("../assets/54521733_2329144977364847_9103956406834298880_n.jpg");
-	padding: 60px 60px;
+	padding: 0px 60px;
 	background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-	background-image: linear-gradient(to bottom, rgb(0 0 0 / 68%), rgb(0 0 0 / 94%)), url(../assets/54521733_2329144977364847_9103956406834298880_n.jpg);
+	background-image: linear-gradient(to bottom, rgb(0 0 0 / 28%), rgb(0 0 0 / 94%)), url(../assets/54521733_2329144977364847_9103956406834298880_n.jpg);
+	padding-top: 30px;
 }
 
 .section-1 img {
 	width: 100%;
+	height: 100%;
 }
 
 .section-1 .campaign-slogan {
@@ -11311,7 +11323,7 @@ textarea.form-control-lg {
 	color: #fff;
 	font-size: 55px;
 	text-transform: uppercase;
-    margin-top: 175px;
+    margin-top: 300px;
 }
 
 .section-1 .campaign-slogan p:nth-child(2) {
@@ -11381,6 +11393,7 @@ textarea.form-control-lg {
     border: 3px solid;
 	border-radius: 68px;
     font-size: 25px;
+	cursor: pointer;
 }
 
 
