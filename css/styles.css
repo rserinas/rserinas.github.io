@@ -11327,17 +11327,19 @@ body {
 .section-1 .campaign-slogan p:nth-child(1) {
 	color: #fff;
     text-transform: uppercase;
-    margin-top: 80px;
+    margin-top: 53px;
 }
 
 .section-1 .campaign-slogan .manggagawa {
 	color: #326fc4;
 	font-size: 63px;
     margin-top: -30px;
+	font-weight: 600;
+    text-transform: uppercase;
 }
 
 .section-1 .campaign-slogan p {
-	font-size: 57px;
+	font-size: 46px;
 }
 
 .section-1 .campaign-slogan p:nth-child(3) {
@@ -11432,6 +11434,7 @@ body {
     background-size: cover;
 	background-image: linear-gradient(to bottom, rgb(0 0 0 / 68%), rgb(0 0 0 / 94%)), url(../assets/54521733_2329144977364847_9103956406834298880_n.jpg);
 	color: #fff;
+	text-align: center;
 }
 
 .section-3 .responsive div {
@@ -11547,11 +11550,20 @@ body {
 	.section-1 .campaign-slogan p {
 		font-size: 45px !important;
 	}
+	.section-1 .campaign-slogan .atty-matula-senado {
+		font-size: 25px !important;
+	}
+	.section-1 .campaign-slogan .manggagawa {
+		margin-top: -10px;
+	}
 }
 
 @media (max-width: 862px) {
 	.section-1 .campaign-slogan p {
 		font-size: 38px !important;
+	}
+	.campaign-slogan {
+		margin-top: 21px;
 	}
 }
 
