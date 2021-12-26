@@ -11323,10 +11323,6 @@ body {
 	display: none;
 }
 
-.atty-matula-senado {
-	font-size: 46px;
-}	
-
 .section-1 .campaign-slogan p:nth-child(1) {
 	color: #fff;
     text-transform: uppercase;
@@ -11344,6 +11340,10 @@ body {
 .section-1 .campaign-slogan p {
 	font-size: 46px;
 }
+
+.atty-matula-senado {
+	font-size: 46px;
+}	
 
 .section-1 .campaign-slogan p:nth-child(3) {
     color: #fff;
